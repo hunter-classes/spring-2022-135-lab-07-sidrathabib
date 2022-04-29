@@ -1,7 +1,7 @@
 main: main.o pretty-printing.o
 	g++ -o main main.o pretty-printing.o
 
-main.o: main.cpp stylpretty-printinging.h
+main.o: main.cpp pretty-printing.h
 	g++ -c main.cpp
 
 pretty-printing.o: pretty-printing.cpp pretty-printing.h
